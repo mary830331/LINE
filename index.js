@@ -689,7 +689,7 @@ bot.on('message', async (event) => {
             action: {
               type: 'uri',
               label: 'action',
-              uri: 'http://linecorp.com/'
+              uri: 'https://hiking.biji.co/' + `${$('#gpx_list').find('.list-wrapper__item').eq(i).find('.fle-none').find('a').eq(1).attr('href')}`
             }
           }
         })
