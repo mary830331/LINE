@@ -12,18 +12,18 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
     "dotenv": "^10.0.0",
     "img": "^3.0.3",
+    "linebot": "^1.6.1",
     "sharp": "^0.29.3"
   },
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.10",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
-    "linebot": "^1.6.1",
     "nodemon": "^2.0.15"
   }
 }
